@@ -1,0 +1,591 @@
+/* Global SCSS */
+body {
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+$Playfair: 'Playfair Display', serif; // font-family: Playfair Display; 
+$Lato: 'Lato', sans-serif;  // font-family: Lato;
+
+
+/* HERO CSS STYLE START */
+
+.hero {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    .heroTitle {
+        font-family: $Playfair;
+        color: #3E4555;
+        font-weight: bold;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 2em 0 2em 0 ;
+    }
+
+    .heroTextUp {
+        font-family: $Lato;
+        font-weight: normal;
+        font-size: 1rem;
+        color: #8D97AD;
+        text-align: center;
+    }
+
+    .heroTextDown {
+        font-family: $Playfair;
+        color: #3E4555;
+        font-weight: normal;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+}
+/* HERO CSS STYLE END */
+
+/* COLLECTION CSS STYLE START */
+
+.collection {
+    width: 100%;
+    background-color: #F5F7FA;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+
+    .collectionTitle {
+        text-align: center;
+        font-family: $Playfair;
+        font-weight: bold;
+        margin: 3em 0;
+        justify-self: center;
+    }
+
+    .collectionDescription {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1367px;
+        margin: 0 auto;
+
+
+    
+        .collectionInfo {
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+            text-align: center;
+
+
+            .collectionInfoNumber {
+                border-radius: 50%;
+                display: block;
+                width: 40px;
+                height: 40px;
+                margin: 0 auto;
+                text-align: center;
+                font-weight: bold;
+                background-color: #ffffff;
+                border: 1px solid #70707021;
+                color: #E2536B;
+            }    
+            
+            .collectionInfoText {
+                font-family: $Lato;
+                font-weight: normal;
+                color: #8D97AD;
+
+            }
+        }
+
+    }
+}
+/* COLLECTION CSS STYLE START */
+
+/* PRICING CSS STYLE START */
+
+.pricing {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F7FA;
+    padding: 4em 0;
+
+
+    .pricingTitle {
+        font-family: $Playfair;
+        font-weight: normal;
+        color: #3E4555;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+
+    .price {
+        width: 100%;
+        max-width: 1367px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .pricing-btn {
+            width: 100%;
+            margin-bottom: 1.5em;
+            font-weight: bold;
+        }
+    }
+
+    .asteryskInfo {
+        font-family: $Lato;
+        font-weight: normal;
+        font-size: .6rem;
+        text-align: center;
+    }
+
+    .asteryskBtn {
+
+
+        .suport-btn {
+            width: 100%;
+            font-size: .5rem;
+            font-weight: bold;
+        }
+    }
+}
+
+/* PRICING CSS STYLE END */
+
+/* GALERYS CSS STYLE START */
+
+.galerys {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F7FA;
+
+
+    .galerysTitle {
+        text-align: center;
+    }
+
+    .galerysWrapper {
+        width: 100%;
+        max-width: 1520px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        
+
+
+        .galeryCard {
+            width: 100%;
+            max-width: 372px;
+            background-position: center;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            margin: 1em 0;
+            position: relative;
+            z-index: 10;
+
+            .CardWrapperText {
+                // width: 50%;
+                // margin: 0 auto;
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                padding: 26px;
+                // left: 25%;
+
+
+                .CardTitle {
+                    color: #ffffff;
+                    font-size: 1.6rem;
+                    font-family: $Playfair;
+                    margin-bottom: 1em;
+                }
+    
+                .CardText {
+                    color: #ffffff;
+                    font-size: 1rem;
+                    font-family: $Lato;
+                    
+                }
+            }
+        
+        }
+    }
+}
+
+/* GALERYS CSS STYLE END */
+
+/* FOOTER CSS STYLE START */
+footer {
+    width: 100%;
+    padding: 3em 0;
+
+
+    .wrapper {
+        width: 100%;
+        
+
+
+        .editions{
+            width: 100%;
+
+
+            .editionsText{
+                text-align: center;
+                color: #8d97ad;
+            }
+
+            .editionsItems {
+                padding-left: 0;
+
+                .editionsItem {
+                    list-style: none;
+                    text-align: center;
+                }
+            
+                .editionsLink {
+                    text-decoration: none;
+                    color: #8D97AD;
+                }
+            }
+        }
+        .socials {
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .createtBy {
+        text-align: center;
+        color: #8D97AD;
+    }
+    .privacyPolicy {
+        text-align: center;
+        color: #8D97AD;
+    }
+}
+/* FOOTER CSS STYLE END */
+
+
+/* MEDIA SCERRN CSS STYLE START */
+@media screen and (min-width: 576px) {
+    .hero {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+
+        .title {
+            width: 100%;
+        }
+
+        .heroTitle {
+            padding: 3em 0 3em 0;
+        }
+
+        .heroArticle {
+            width: 50%;
+            text-align: start;
+
+            .heroTextUp, .heroTextDown {
+                text-align: start;
+            } 
+        }
+
+        .heroImage {
+            width: 50%;
+
+        }
+    }
+
+    .collection {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .title {
+            width: 100%;
+        }
+
+        .collectionDescription {
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+        
+
+            .collectionInfo {
+                width: 20%;
+            }
+        }
+    }
+
+    .pricing {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .asteryskInfo {
+            font-size: .7rem;
+            margin: 2em 0;
+        }
+
+        .price {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1130px;
+
+            .pricing-btn {
+                width: 25%;
+                max-width: 277px;
+
+            }
+        }
+    }
+
+    .asteryskInfo {
+        width: 100%;
+    }
+
+    .asteryskBtn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2em;
+
+
+
+        .suport-btn {
+            width: 12% !important;
+            // display: flex;
+        }
+        
+    }
+
+    .galerys {
+        flex-direction: row; 
+        flex-wrap: wrap;
+
+        .title {
+            width: 100%;
+        }
+
+        .galerysWrapper {
+            flex-direction: row;
+            justify-content: space-between;
+
+
+            .galeryCard {
+                max-width: 372px;
+            }
+        }
+
+    }
+
+    .editions {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        .editionsText {
+            width: 100%;
+            text-align: left !important;
+        }
+
+        .editionsItems {
+            width: 50%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    footer {
+
+        .wrapper {
+            display: flex;
+            margin-bottom: 3em;
+
+          
+
+            
+            .editionsItems {
+            width: 100% !important;
+            }
+
+            .socials {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                align-content: center;
+                justify-content: flex-end;
+                align-items: center;
+
+                .sociaslLink {
+                    margin-right: 1rem;
+                }
+            }
+
+        }
+
+        .wrapper--2 {
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 100vh;
+
+        &::after {
+            content: '';
+            width: 300px;
+            height: 459px;
+            background-image: url("/img/NewGroup0-16.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            top: 129px;
+            left: -69px;
+            z-index: -1;
+        }
+
+        .heroTitle {
+            font-size: 2rem;
+             padding: 5em 0 0 0 ;
+        }
+
+        .heroImage {
+            position: relative;
+
+
+            &::after {
+                content: '';
+                width: 352px;
+                height: 427px;
+                background-image: url("/img/Group\ 502.png");
+                background-repeat: no-repeat;
+                background-size: contain;
+                position: absolute;
+                top: -40px;
+                right: -29px;
+                z-index: -1;
+            }
+        }
+    }
+
+    .galerys {
+        padding-bottom: 80px;
+        position: relative;
+        overflow: hidden;
+
+        &::after {
+            content: '';
+            width: 337px;
+            height: 337px;
+            background-image: url("/img/Inteligentny\ obiekt\ wektorowy.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            position: absolute;
+            bottom: -145px;
+            left: 76px;
+            z-index: 0;
+        }
+
+        .owl-prev {
+            position: absolute;
+            top: 50%;
+            left: -60px;
+            transform: translateY(-50%);
+            font-size: 4rem !important;
+            background-color: #F5F7FA;
+
+            &:hover,
+            &:focus {
+                background: #F5F7FA !important;
+                color: black !important;
+            }
+    
+        }
+
+        .owl-next {
+            position: absolute;
+            top: 50%;
+            right: -60px;
+            transform: translateY(-50%);
+            font-size: 4rem !important;
+            background-color: #F5F7FA;
+
+            &:hover,
+            &:focus {
+                background: #F5F7FA !important;
+                color: black !important;
+            }
+        }
+
+ 
+    }
+
+    footer {
+
+        .wrapper {
+            display: flex !important;
+        }
+
+        .editionsItems {
+            width: 100% !important;
+        }
+    }
+
+}
+
+@media screen and (min-width: 991px) {
+    .heroImag {
+        // width: 100%;
+        max-width: 66%;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .hero {
+        align-items: flex-start;
+
+
+
+        .heroTextDown {
+            font-size: 1.6rem;
+        }
+    
+        .heroImage {
+    
+            &::after {
+                width: 510px;
+                right: -76px;
+            }
+        }
+    }
+    
+}
+
+
+
